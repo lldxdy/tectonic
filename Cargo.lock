@@ -2317,7 +2317,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic"
-version = "0.11.0"
+version = "0.11.0+20221027"
 dependencies = [
  "atty",
  "byte-unit",
@@ -2361,7 +2361,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_bridge_core"
-version = "0.3.1"
+version = "0.3.1+20221027"
 dependencies = [
  "cc",
  "flate2",
@@ -2375,7 +2375,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_bridge_flate"
-version = "0.1.6"
+version = "0.1.6+20221027"
 dependencies = [
  "flate2",
  "libc",
@@ -2383,21 +2383,21 @@ dependencies = [
 
 [[package]]
 name = "tectonic_bridge_freetype2"
-version = "0.2.0"
+version = "0.2.0+20221027"
 dependencies = [
  "tectonic_dep_support",
 ]
 
 [[package]]
 name = "tectonic_bridge_graphite2"
-version = "0.2.1"
+version = "0.2.1+20221027"
 dependencies = [
  "tectonic_dep_support",
 ]
 
 [[package]]
 name = "tectonic_bridge_harfbuzz"
-version = "0.2.7"
+version = "0.2.7+20221027"
 dependencies = [
  "cc",
  "tectonic_bridge_graphite2",
@@ -2407,14 +2407,14 @@ dependencies = [
 
 [[package]]
 name = "tectonic_bridge_icu"
-version = "0.2.0"
+version = "0.2.0+20221027"
 dependencies = [
  "tectonic_dep_support",
 ]
 
 [[package]]
 name = "tectonic_bundles"
-version = "0.3.0"
+version = "0.3.0+20221027"
 dependencies = [
  "flate2",
  "fs2",
@@ -2427,14 +2427,14 @@ dependencies = [
 
 [[package]]
 name = "tectonic_cfg_support"
-version = "0.1.4"
+version = "0.1.4+20221027"
 dependencies = [
  "lazy_static",
 ]
 
 [[package]]
 name = "tectonic_dep_support"
-version = "0.1.0"
+version = "0.1.0+20221027"
 dependencies = [
  "pkg-config",
  "vcpkg",
@@ -2442,7 +2442,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_docmodel"
-version = "0.2.0"
+version = "0.2.0+20221027"
 dependencies = [
  "serde",
  "tectonic_errors",
@@ -2451,7 +2451,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_engine_bibtex"
-version = "0.1.4"
+version = "0.1.4+20221027"
 dependencies = [
  "cc",
  "libc",
@@ -2461,7 +2461,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_engine_spx2html"
-version = "0.2.0"
+version = "0.2.0+20221027"
 dependencies = [
  "byteorder",
  "html-escape",
@@ -2478,7 +2478,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_engine_xdvipdfmx"
-version = "0.3.0"
+version = "0.3.0+20221027"
 dependencies = [
  "cc",
  "libc",
@@ -2489,7 +2489,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_engine_xetex"
-version = "0.4.1"
+version = "0.4.1+20221027"
 dependencies = [
  "cc",
  "libc",
@@ -2505,14 +2505,14 @@ dependencies = [
 
 [[package]]
 name = "tectonic_errors"
-version = "0.2.0"
+version = "0.2.0+20221027"
 dependencies = [
  "anyhow",
 ]
 
 [[package]]
 name = "tectonic_geturl"
-version = "0.3.1"
+version = "0.3.1+20221027"
 dependencies = [
  "cfg-if 1.0.0",
  "curl",
@@ -2523,7 +2523,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_io_base"
-version = "0.4.1"
+version = "0.4.1+20221027"
 dependencies = [
  "app_dirs2",
  "flate2",
@@ -2536,7 +2536,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_pdf_io"
-version = "0.3.0"
+version = "0.3.0+20221027"
 dependencies = [
  "cc",
  "tectonic_bridge_core",
@@ -2547,14 +2547,14 @@ dependencies = [
 
 [[package]]
 name = "tectonic_status_base"
-version = "0.2.0"
+version = "0.2.0+20221027"
 dependencies = [
  "tectonic_errors",
 ]
 
 [[package]]
 name = "tectonic_xdv"
-version = "0.2.1"
+version = "0.2.1+20221027"
 dependencies = [
  "byteorder",
  "clap",
@@ -2562,7 +2562,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_xetex_format"
-version = "0.3.0"
+version = "0.3.0+20221027"
 dependencies = [
  "byteorder",
  "nom 7.1.1",
@@ -2572,7 +2572,7 @@ dependencies = [
 
 [[package]]
 name = "tectonic_xetex_layout"
-version = "0.2.1"
+version = "0.2.1+20221027"
 dependencies = [
  "cc",
  "tectonic_bridge_core",
